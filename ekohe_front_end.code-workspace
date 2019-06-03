@@ -1,21 +1,13 @@
 {
 	"folders": [
-		{
-			"name": "fonts",
-			"path": "/Users/admin/Downloads/interview_assignments-Ekohe/frontend/interview_packs/materials/fonts"
-		},
-		{
-			"name": "icons",
-			"path": "/Users/admin/Downloads/interview_assignments-Ekohe/frontend/interview_packs/materials/icons"
-		},
-		{
-			"name": "ekohe_front_end",
-			"path": "."
-		},
-		{
-			"name": "art",
-			"path": "/Users/admin/Downloads/interview_assignments-Ekohe/frontend/interview_packs/art"
-		}
-	],
+    {
+      "name": "ekohe_front_end",
+      "path": "."
+    },
+    {
+      "name": "art",
+      "path": "/Users/admin/Downloads/interview_assignments-Ekohe/frontend/interview_packs/art"
+    }
+  ],
   "settings": {}
 }

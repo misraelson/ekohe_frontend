@@ -8,9 +8,9 @@ export default function Login() {
   return (
     <div className="login">
       <img src={universe} alt="Universe" className="login__photo" />
-      <form className="login__form">
-        <h1>Login</h1>
-        <div className="login--inputs">
+      <form>
+        <h1>Log in</h1>
+        <div className="form--inputs">
           <h2>EMAIL ADDRESS</h2>
           <input          
             value={email}
@@ -27,11 +27,15 @@ export default function Login() {
             name="password"
             required
           />
-          <input type="checkbox" name="remember" value="Remember" />REMEMBER ME
-          <a href="/" className="link">Forgot Password?</a>
+          <div className="row-box">
+            <input type="checkbox" name="remember" value="Remember" />REMEMBER ME
+            <a href="/" className="link">Forgot Password?</a>
+          </div>
         </div>
-        <a href="/" className="btn btn--cancel">CANCEL</a>
-        <input className="Submit-button" type="submit" value="LOGIN" />
+        <div className="row-box">
+          <a href="/" className="btn btn--cancel">CANCEL</a>
+          <input className="btn btn-submit" type="submit" value="LOGIN" />
+        </div>
         <span>Don't have an account yet?</span>
         <a href="/sign-up" className="link">Sign Up here</a>
       </form>

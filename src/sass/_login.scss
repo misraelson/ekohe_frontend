@@ -28,19 +28,31 @@
       flex-direction: column;
       input {
         border: none;
-        background: transparent;
         border-bottom: 1px solid lightgrey;
         outline: none;
         margin-bottom: 1rem;
       }
     }
     .row-box {
-      flex-basis: row;
-      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
     }
   }
   .btn {
-    width: 3rem;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
     border-radius: 1rem;
+    color: white;
+  }
+  .btn--submit {
+    background: linear-gradient(to right, purple, lightblue)
+  }
+  .btn--cancel {
+    background: darkblue;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.2rem;
   }
 }

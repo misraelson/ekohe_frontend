@@ -28,16 +28,21 @@ export default function Login() {
             required
           />
           <div className="row-box">
-            <input type="checkbox" name="remember" value="Remember" />REMEMBER ME
+          <div>
+            <input type="checkbox" id="remember" name="remember" value="Remember" />
+            <label for="remember">Remember Me</label>
+          </div>
             <a href="/" className="link">Forgot Password?</a>
+          </div>
+          <div className="row-box">
+            <a href="/" className="btn btn--cancel">CANCEL</a>
+            <input className="btn btn--submit" type="submit" value="LOGIN" />
           </div>
         </div>
         <div className="row-box">
-          <a href="/" className="btn btn--cancel">CANCEL</a>
-          <input className="btn btn-submit" type="submit" value="LOGIN" />
+          <span>Don't have an account yet?</span>
+          <a href="/sign-up" className="link">Sign Up here</a>
         </div>
-        <span>Don't have an account yet?</span>
-        <a href="/sign-up" className="link">Sign Up here</a>
       </form>
     </div>
   )

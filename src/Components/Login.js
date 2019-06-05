@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import universe from '../icons/universe.jpg';
-import '../sass/_login.scss';
+import Header from './Header.js'
 import '../sass/_login_mobile.scss';
 
 export default function Login() {
@@ -10,6 +10,7 @@ export default function Login() {
   return (
     <div className="login">
       <img src={universe} alt="Universe" className="login__photo" />
+      <Header />
       <form>
         <h1>Log in</h1>
         <div className="form--inputs">

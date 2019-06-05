@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import universe from '../icons/universe.jpg';
 import '../sass/_login.scss';
+import '../sass/_login_mobile.scss';
 
 export default function Login() {
   const [email, setEmail] = useState("");

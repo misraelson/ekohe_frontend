@@ -1,11 +1,31 @@
 
-.Batman-box {
+.Batman--box {
+  display: flex;
+  flex-direction: row;
   flex-flow: wrap;
-  align-content: space-between;
-  display: relative;
-  justify-content: center;
-  .show-info {
-    font-size: 2em;
+  align-items: stretch;
+  margin: 2rem;
+  .batman--show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: azure;
+    .show-image {
+      align-self: center;
+    }
+    .show-info {
+      font-size: 1.4rem;
+      padding-left: 2rem;
+      p {
+        max-width: 50rem;
+        padding: 1rem;
+      }
+      span {
+        width: 40rem;
+      }
+    }
   }
   .episode {
     font-size: 2em;

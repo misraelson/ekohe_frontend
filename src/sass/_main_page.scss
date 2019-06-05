@@ -1,0 +1,13 @@
+
+.Batman-box {
+  flex-flow: wrap;
+  align-content: space-between;
+  display: relative;
+  justify-content: center;
+  .show-info {
+    font-size: 2em;
+  }
+  .episode {
+    font-size: 2em;
+  }
+}

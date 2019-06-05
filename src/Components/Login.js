@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import universe from '../icons/universe.jpg';
 import '../sass/_login.scss';
 
@@ -36,7 +37,7 @@ export default function Login() {
           </div>
           <div className="row-box">
             <a href="/" className="btn btn--cancel">CANCEL</a>
-            <input className="btn btn--submit" type="submit" value="LOGIN" />
+            <NavLink className="btn btn--submit" to="/main-page"> LOGIN </NavLink>
           </div>
           <div className="row-box account">
             <span>Don't have an account yet?</span>

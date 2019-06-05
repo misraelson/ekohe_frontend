@@ -42,9 +42,11 @@
       font-weight: 300;
       .remember {
         display: flex;
+        margin-bottom: 2rem;
       }
       &.account {
         align-self: flex-end;
+        margin-top: 1rem;
         span {
           padding-right: 1rem;
         }
@@ -59,7 +61,10 @@
     color: white;
   }
   .btn--submit {
-    background: linear-gradient(to right, #5B4AA9, #4A63D1)
+    background: linear-gradient(to right, #5B4AA9, #4A63D1);
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.1rem;
   }
   .btn--cancel {
     background: #222543;

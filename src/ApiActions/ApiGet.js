@@ -16,5 +16,5 @@ export default function EndpointData(endpoint, callback) {
 
   useEffect(() => {
     fetchData(endpoint);
-  }, [endpoint]);
+  });
 };

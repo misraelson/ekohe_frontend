@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+  background-color: #222543;
+  color: lightgrey;
+  font-size: 1.5rem;
+  font-weight: 300;
+  .terms {
+    align-self: center;
+    margin-left: 2rem;
+    span {
+      padding: 2rem;
+    }
+  }
+  .logos {
+    align-self: center;
+    margin-right: 3rem;
+    svg {
+    margin-left: 2.5rem;
+    padding: .1rem;
+    }
+  }
+}

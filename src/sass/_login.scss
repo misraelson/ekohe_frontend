@@ -11,28 +11,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-grow: 1;
     width: 50vh;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
     h1 {
-      font-size: 1.5rem;
+      font-size: 4rem;
       font-weight: 500;
-      padding: 2rem
+      margin-bottom: 7rem;
     }
     h2 {
       font-weight: 300;
-      font-size: 1rem;
-      padding-bottom: 1rem; 
+      font-size: 2rem;
+      margin-bottom: 2rem; 
     }
     .form--inputs {
-      width: 25rem;
+      width: 50rem;
       display: flex;
       flex-direction: column;
       input {
+        font-size: 1.5rem;
         border: none;
         border-bottom: 1px solid lightgrey;
         outline: none;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
     }
     .row-box {
@@ -43,10 +45,14 @@
       .remember {
         display: flex;
         margin-bottom: 2rem;
+        label {
+          padding-left: 1rem;
+        }
       }
       &.account {
         align-self: flex-end;
         margin-top: 1rem;
+        font-size: 1.5rem;
         span {
           padding-right: 1rem;
         }
@@ -54,22 +60,19 @@
     }
   }
   .btn {
-    width: 7rem;
-    height: 2rem;
-    font-size: 1rem;
-    border-radius: 1rem;
+    width: 8.5rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 1.6rem;
     color: white;
+    line-height: 3.1rem;
+    text-decoration: none;
+    text-align: center;
   }
   .btn--submit {
     background: linear-gradient(to right, #5B4AA9, #4A63D1);
-    text-align: center;
-    text-decoration: none;
-    line-height: 2.1rem;
   }
   .btn--cancel {
     background: #222543;
-    text-align: center;
-    text-decoration: none;
-    line-height: 2.1rem;
   }
 }

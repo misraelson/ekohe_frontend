@@ -10,7 +10,7 @@ function Batman(batman, index) {
     <div key={index} className="batman--show">
       <div className="show-image"><img src={batman.show.image.medium} alt={batman.show.name}/></div>
       <div className="show-info">
-        <p>Show Name: {batman.show.name}</p>
+        <h1>Show Name: {batman.show.name}</h1>
         <p>Premiere Date: {batman.show.premiered}</p>
         <p>Rating: {batman.show.rating.average}</p>
         <p>Type: {batman.show.type} </p>
